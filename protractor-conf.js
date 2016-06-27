@@ -4,9 +4,9 @@ exports.config = {
   allScriptsTimeout: 40000,
   
   specs: [
-    "./build/test/end2end/js/login/*.js",
-    "./build/test/end2end/js/smoke/*.js",
-    // "./build/test/end2end/js/**/*.js",
+    //"./build/test/end2end/js/login/*.js",
+    //"./build/test/end2end/js/smoke/*.js",
+    "./build/test/end2end/js/**/*.js",
   ],
   
   suites: {
