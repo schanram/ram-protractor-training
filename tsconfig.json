@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ES5",
+		"watch": false,
+		"noImplicitAny": true,
+		"noEmitOnError": true,
+		"outDir": "./build/test/end2end/js"
+	},	
+	"exclude": [
+		"node_modules",
+		"typings/main",
+		"typings/main.d.ts"
+	]
+}
