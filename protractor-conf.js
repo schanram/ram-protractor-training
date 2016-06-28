@@ -54,6 +54,7 @@ exports.config = {
           // captureOnlyFailedSpecs: true
         })
       );
+    browser.ignoreSynchronization = true;
 
     var disableNgAnimate = function() {
       angular.module('disableNgAnimate', []).run(['$animate', function($animate) {
