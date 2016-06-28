@@ -4,7 +4,7 @@ The (in)complete workshop for picking up Protractor - end to end testing for Ang
 ## Getting started
 
 1. Follow the install instructions.
-2. Work through the [traing materials](training-guide.md)
+2. Work through the [trainging materials](training-guide.md)
 
 ## Install instructions
 
