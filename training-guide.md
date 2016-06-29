@@ -2,14 +2,13 @@
 * Prerequisites
    * Automation Testing
    * Jasmine
-
 * Protractor
    * Introduction to Protractor, locating elements and interacting with the angular page
    * Page Objects
-
+* Protractor Jasmine Screenshot Reporter
 * Future objectives
    *  Understanding Promises and promise-based tests  
-   *  Debuggin Protractor Tests
+   *  Debugging Protractor Tests
 
 ## Introduction   
 
@@ -34,4 +33,11 @@ There are two main topics in terms of prerequisities skill, AngularJS and [Jasmi
 
 * [Introduction to Protractor] (https://app.pluralsight.com/library/courses/protractor-introduction/table-of-contents)
  
+## Protrocator Jasmine Screenshot Reporter
+
+### Learning materials
+
+* [Protractor Screenshot Reporter] (https://www.npmjs.com/package/protractor-jasmine2-screenshot-reporter)
+
+  
 
