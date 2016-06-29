@@ -15,8 +15,6 @@ The (in)complete workshop for picking up Protractor - end to end testing for Ang
     1. git
     2. nodejs and npm
     3. [Visual Studio Code](https://code.visualstudio.com/Download)
-    // 4. typescript: `npm install -g typescript@1.8.10`
-    // 5. typings: `npm install -g typings`
 2. fork this repo
 3. clone the forked repo locally
 4. open a cmd prompt with the current directory set to the locally cloned directory
