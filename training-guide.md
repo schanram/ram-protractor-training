@@ -1,6 +1,6 @@
 # Topics
 * Prerequisites
-   * Automation Testing
+   * AngularJS
    * Jasmine
 * Protractor
    * Introduction to Protractor, locating elements and interacting with the angular page
@@ -22,9 +22,8 @@ There are two main topics in terms of prerequisities skill, AngularJS and [Jasmi
 
 ### Learning materials
 
-* [Automated Testing] (https://app.pluralsight.com/player?course=automated-testing-end-to-end&author=jason-roberts&name=automated-testing-end-to-end-m1&clip=0&mode=live)
-* [Introdution to Jasmine](https://app.pluralsight.com/player?course=testing-javascript&author=joe-eames&name=testing-javascript-m2-jasmine&clip=0&mode=live)
 * [AngularJS: Get Started] (https://app.pluralsight.com/library/courses/angularjs-get-started/table-of-contents)
+* [Introdution to Jasmine](https://app.pluralsight.com/player?course=testing-javascript&author=joe-eames&name=testing-javascript-m2-jasmine&clip=0&mode=live)
 * [BDD - Testing AngularJS From Scratch] (https://app.pluralsight.com/player?course=testing-angularjs-from-scratch&author=jesse-liberty&name=tafs-m3&clip=2&mode=live)
 
 ## Protractor
