@@ -23,15 +23,18 @@ We'll learn how it works or how to write efficient automated tests from user poi
 
 ## Prerequisities
 
-As protractor is an automation testing framework and by default, it uses the [Jasmine] (http://jasmine.github.io/) test framework for its testing interface which we are going to use it as well. So it will be a good idea if we have some familiarity with couple of the topics defined in the prerequisites section..
+There are two main topics in terms of prerequisities skill, AngularJS and [Jasmine] (http://jasmine.github.io/). I set up the learning material if anyone want to go through with any of them.
 
 ### Learning materials
 
+* [AngularJS: Get Started] (https://app.pluralsight.com/library/courses/angularjs-get-started/table-of-contents)
 * [Automated Testing] (https://app.pluralsight.com/player?course=automated-testing-end-to-end&author=jason-roberts&name=automated-testing-end-to-end-m1&clip=0&mode=live)
 * [BDD - Testing AngularJS From Scratch] (https://app.pluralsight.com/player?course=testing-angularjs-from-scratch&author=jesse-liberty&name=tafs-m3&clip=2&mode=live)
 * [Testing Clientside Javascript](https://app.pluralsight.com/player?course=testing-javascript&author=joe-eames&name=testing-javascript-m2-jasmine&clip=0&mode=live)
 
 ## Protractor
+
+### Learning materials
 
  
 
