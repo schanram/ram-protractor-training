@@ -5,9 +5,7 @@
    * Jasmine
 
 * Protractor
-   * How Protractor Works
-   * Locating Elements
-   * Interacting with the angular template / page
+   * Introduction to Protractor, locating elements and interacting with the angular page
    * Page Objects
 
 * Future objectives
@@ -36,5 +34,6 @@ There are two main topics in terms of prerequisities skill, AngularJS and [Jasmi
 
 ### Learning materials
 
+* [Introduction to Protractor] (https://app.pluralsight.com/library/courses/protractor-introduction/table-of-contents)
  
 
