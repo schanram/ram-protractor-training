@@ -32,6 +32,12 @@ There are two main topics in terms of prerequisities skill, AngularJS and [Jasmi
 ### Learning materials
 
 * [Introduction to Protractor] (https://app.pluralsight.com/library/courses/protractor-introduction/table-of-contents)
+
+### Demo
+
+* Demo in VSC:
+    * Show the tests and the wrapper objects in Typescript.
+    * Step through code. (note: must be targeting `commonjs`)
  
 ## Protrocator Jasmine Screenshot Reporter
 
