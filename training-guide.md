@@ -1,7 +1,6 @@
 # Topics
 * Prerequisites
    * Automation Testing
-   * Behaviour-driven development framework
    * Jasmine
 
 * Protractor
@@ -10,7 +9,6 @@
 
 * Future objectives
    *  Understanding Promises and promise-based tests  
-   *  Mocking HTTP Requests
    *  Debuggin Protractor Tests
 
 ## Introduction   
