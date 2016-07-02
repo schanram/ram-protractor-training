@@ -16,10 +16,10 @@
 ## Introduction   
 
  - About 
-  - This workshop is for us to learn to write automated tests for AngularJS web apps.
+  - This workshop is for us to learn to write automated tests for AngularJS web apps. Its about learning the protractor.
   - Protractor is an automation testing framework for AngularJS applications. It runs test against your application running in the   real browser from an end user prospective. 
  - What is our aim
-  -  By the end of this workshop we should be comfertable and productive, with protractor for writing tests.
+  -  By the end of this workshop we should be comfertable and productive, with protractor for writing CLEAN tests.
   
 ## Requirements
 
