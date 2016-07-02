@@ -1,10 +1,13 @@
 # Topics
+* Introducation
+* Protractor
+  * Protractor Architecture
+  * Protractor Configuration
+  * Introduction to Protractor, Locating elements and interacting with the angular page
+  * Page Objects 
 * Prerequisites
    * AngularJS
    * Jasmine
-* Protractor
-   * Introduction to Protractor, locating elements and interacting with the angular page
-   * Page Objects
 * Protractor Jasmine Screenshot Reporter
 * Future objectives
    *  Understanding Promises and promise-based tests  
@@ -12,10 +15,26 @@
 
 ## Introduction   
 
-Protractor is an end-to-end automation testing framework for AngularJS applications. It runs test against your application running in the real browser from an end user prospective. 
+- Protractor is a NodeJS program that is used to write end-to-end tests. It's an automation testing framework for AngularJS applications. It runs test against your application running in the real browser from an end user prospective. 
 
 We'll learn how it works or how to write efficient automated tests from user point of view that will make our application a bug free (less bugs) application.
 
+## Requirements
+
+* Node
+    - Protractor is a NodeJS program. Node intall npm packagemanager which is being used to manage node installations and through npm we can install the protractor.
+    - node --version 
+* Browser e.g. Chrome 
+    - We need browser as protractor tests runs in the browser 
+* Selenium Webdriver 
+   In order to run our protractor test we need to run selenium server as protractor is build upon on WebdriverJS and selenium server. 
+* JDK 
+  - To run Selenium server we require an java development kit.
+  - java -version
+* Protractor 
+  - protractor --version   
+* An editor e.g. Visual Studio Code
+  
 ## Prerequisities
 
 There are two main topics in terms of prerequisities skill, AngularJS and [Jasmine] (http://jasmine.github.io/). I set up the learning material if anyone want to go through with any of them.
