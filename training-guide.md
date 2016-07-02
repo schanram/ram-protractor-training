@@ -28,7 +28,7 @@
     - node --version 
 * Browser e.g. Chrome 
 * Selenium Webdriver 
- - In order to run our protractor test we need to run selenium server as protractor is build upon on WebdriverJS and selenium server. 
+ - In order to run our protractor test we need to run selenium server as protractor is build upon on WebdriverJS and selenium server environment. 
 * JDK 
   - To run Selenium server we require an java development kit.
   - java -version
