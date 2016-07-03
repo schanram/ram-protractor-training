@@ -4,6 +4,7 @@
   * Protractor Architecture
   * Protractor Configuration
   * Introduction to Protractor, Locating elements and interacting with the angular page
+  * Locating Elements - Writing CSS Expressions
   * Page Objects 
 * Prerequisites
    * AngularJS
@@ -51,6 +52,7 @@ There are two main topics in terms of prerequisities skill, AngularJS and [Jasmi
 ### Learning materials
 
 * [Introduction to Protractor, Locating elements and interacting with the angular page] (https://app.pluralsight.com/library/courses/protractor-introduction/table-of-contents)
+* [Locating Elements - Writing CSS Expressions) (https://www.youtube.com/watch?v=sHyp7vk7DeE) 
 
 ### Demo
 
