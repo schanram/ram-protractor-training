@@ -53,6 +53,7 @@ There are two main topics in terms of prerequisities skill, AngularJS and [Jasmi
 
 * [Introduction to Protractor, Locating elements and interacting with the angular page] (https://app.pluralsight.com/library/courses/protractor-introduction/table-of-contents)
 * [Locating Elements - Writing CSS Expressions] (https://www.youtube.com/watch?v=sHyp7vk7DeE) 
+* [Page Objects] (https://www.youtube.com/watch?v=ln_jaC11SAA)
 
 ### Demo
 
