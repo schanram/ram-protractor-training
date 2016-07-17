@@ -50,6 +50,7 @@
  - java -version
   
 * Protractor 
+  - npm install -g protractor
   - protractor --version   
   
 * An editor e.g. Visual Studio Code
