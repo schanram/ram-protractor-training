@@ -29,6 +29,7 @@
   -  By the end of this workshop we should be comfertable and productive, with protractor for writing <b>CLEAN</b> tests.
   -  CLEAN test:
     - Easy to read and understand and less maintainable.   
+  - How we proceed after the workshop?
   
 ## Requirements
 
