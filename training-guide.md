@@ -72,9 +72,9 @@ There are two main topics in terms of prerequisities skill, AngularJS and [Jasmi
 * [Introduction to Protractor, Locating elements and interacting with the angular page] (https://app.pluralsight.com/library/courses/protractor-introduction/table-of-contents)
 * [Locating Elements - Writing CSS Expressions] (https://www.youtube.com/watch?v=sHyp7vk7DeE) 
 * [Page Objects] (https://www.youtube.com/watch?v=ln_jaC11SAA)
- - Its an wrapper or provides an API to the page under test. The specs then use this page object methods to interact with the Angular page.
- - It enhance test maintenance and reduce code duplication.
- -
+ - Page Object is a pattern which has become popular in test automation for enhancing test maintenance and reducing code duplication. 
+ - Its provides an API to the page under test. The specs then use this page object methods to interact with the Angular page.
+ 
 ### Demo
 
 * Demo in VSC:
