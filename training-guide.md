@@ -16,25 +16,41 @@
 
 ## Introduction   
 
- - About 
-  - This workshop is for us to learn to write automated tests for AngularJS web apps. Its about learning the protractor.
-  - Protractor is an automation testing framework for AngularJS applications. It runs test against your application running in the   real browser from an end user prospective. 
- - What is our aim
-  -  By the end of this workshop we should be comfertable and productive, with protractor for writing CLEAN tests.
+ - Protractor is an <b>end to end</b> test fram work for <b>AngularJS</b> applications. Protractor runs tests against your app in a <b>real browser</b> from a user prospective.
+ - End-to-End Test Mean:
+  - A methodoloy to test flow of app is performing as expected from start to finish.
+  - The entire app is tested in the real world scenario such as communicating with the database, or with other applications. No  mock-ups or additional environment creation which we normally need for unit testing.
+  
+ - Test framwork for AngularJS:
+  - Protractor is build on top of WebDriverJs. Its a wrapper for selenium webdriver which is a standard webpage testing tool. 
+  - What protractor adds to selenium webdriver, it add the support for some AngularJS functionality.
+ 
+ - Workshop aim:
+  -  By the end of this workshop we should be comfertable and productive, with protractor for writing <b>CLEAN</b> tests.
+  -  CLEAN test:
+    - Easy to read and understand and less maintainable.   
   
 ## Requirements
 
-* Node
-    - Protractor is a NodeJS program. Node intall npm packagemanager which is being used to manage node installations and through npm we can install the protractor.
-    - node --version 
 * Browser e.g. Chrome 
+
+* Node
+    - Protractor is NodeJS program so make sure you node and node packagemanager install on your system. 
+    - Node intall npm packagemanager automatically which is being used to manage node installations.
+    - [NodeJS.org](https://nodejs.org/en/)
+    - node --version 
+
 * Selenium Webdriver 
- - In order to run our protractor test we need to run selenium server as protractor is build upon on WebdriverJS and selenium server environment. 
+ - For protractor install we also need to install selenium webdriver. 
+ - webdriver-manager update (it will install selenium standalone server as well as chrome driver).
+ 
 * JDK 
-  - To run Selenium server we require an java development kit.
-  - java -version
+ - To run Selenium server we require an java development kit.
+ - java -version
+  
 * Protractor 
   - protractor --version   
+  
 * An editor e.g. Visual Studio Code
   
 ## Prerequisities
