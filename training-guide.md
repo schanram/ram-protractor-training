@@ -72,8 +72,25 @@ There are two main topics in terms of prerequisities skill, AngularJS and [Jasmi
 * [Introduction to Protractor, Locating elements and interacting with the angular page] (https://app.pluralsight.com/library/courses/protractor-introduction/table-of-contents)
 * [Locating Elements - Writing CSS Expressions] (https://www.youtube.com/watch?v=sHyp7vk7DeE) 
 * [Page Objects] (https://www.youtube.com/watch?v=ln_jaC11SAA)
- - Page Object is a pattern which has become popular in test automation for enhancing test maintenance and reducing code duplication. 
- - Its provides an API to the page under test. The specs then use this page object methods to interact with the Angular page.
+ - Page object provides an API to the page under test. The specs then use this page object to interact with the Angular page.
+ - Reduce code duplication.
+ - Ecapsutation (decoupled the test logic from the implementation detail).
+ - Can be reused across multiple tests
+ - Enhance test maintenance.
+ 
+## Protrocator Jasmine Screenshot Reporter
+
+### Learning materials
+
+* [Protractor Screenshot Reporter] (https://www.npmjs.com/package/protractor-jasmine2-screenshot-reporter)
+
+## Debugging
+
+### Learning materials
+
+* [Debugging Protractor Tests] (https://github.com/angular/protractor/blob/master/docs/debugging.md)
+
+
  
 ### Demo
 
@@ -81,11 +98,6 @@ There are two main topics in terms of prerequisities skill, AngularJS and [Jasmi
     * Show the tests and the wrapper objects in Typescript.
     * Step through code. (note: must be targeting `commonjs`)
  
-## Protrocator Jasmine Screenshot Reporter
-
-### Learning materials
-
-* [Protractor Screenshot Reporter] (https://www.npmjs.com/package/protractor-jasmine2-screenshot-reporter)
 
   
 
