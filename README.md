@@ -13,8 +13,13 @@ The (in)complete workshop for picking up Protractor - end to end testing for Ang
     2. Delete any folder with a version number < 2.0 (eg 1.0)
 1. Install global tooling:
     1. git
-    2. nodejs and npm
-    3. [Visual Studio Code](https://code.visualstudio.com/Download)
+        - git --version 
+    2. [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+        - java -version
+        - Keep in mind The new installation takes effect in each new command window.
+    3. [nodejs and npm](https://nodejs.org/en/) 
+        - node --version
+    4. [Visual Studio Code](https://code.visualstudio.com/Download)
 2. fork this repo
 3. clone the forked repo locally
 4. open a cmd prompt with the current directory set to the locally cloned directory
@@ -22,6 +27,10 @@ The (in)complete workshop for picking up Protractor - end to end testing for Ang
     * installs both npm modules and any referenced typescript definition files
 
 ## Running project
+
+**The tests run against an Angular application. To start the Angular application run the following command:
+
+`npm run server`
 
 **Compile typescript and run tests from the command prompt** 
 
