@@ -1,0 +1,45 @@
+{
+  "name": "protractor",
+  "version": "0.0.0",
+  "description": "Protractor Test application",
+  "main": "index.js",
+  "scripts": {
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update",
+    "postinstall": "typings install",
+    "start": "tsc && protractor ./protractor-conf.js",
+    "tsc": "tsc -p ./",
+    "tsc:w": "tsc -p ./ -w",
+    "typings": "typings",
+    "test": "protractor ./protractor-conf.js",
+    "posttest": "node ./scripts/open-e2e-report.js",
+    "server": "node ./server.js",
+    "http-server": "^0.8.5",
+    "live-server": "^0.8.2",
+    "update-index-async": "node -e \"require('shelljs/global'); sed('-i', /\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/, '//@@NG_LOADER_START@@\\n' + cat('bower_components/angular-loader/angular-loader.min.js') + '\\n//@@NG_LOADER_END@@', 'app/index-async.html');\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "~1.0.3"
+  },
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-resource": "^1.4.7",
+    "angular-route": "^1.4.7",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "faker": "^3.0.1",
+    "http-server": "^0.8.5",
+    "live-server": "^0.8.2",
+    "lodash": "^3.10.1",
+    "materialize-css": "^0.97.1",
+    "open": "0.0.5",
+    "protractor": "^3.0.0",
+    "protractor-jasmine2-screenshot-reporter": "^0.3.1",    
+    "underscore.string": "^3.3.4"
+  }
+}
+
+
