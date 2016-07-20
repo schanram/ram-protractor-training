@@ -14,14 +14,67 @@
 // 2. Get the input element and replace it existing value with the new value. Test whether the new value replaced the existing one. 
 // 3. Replace the name, email address or phone no and then hit the save button. Test whether it updates the contact info detail.
 
-describe('Exercise1', function() {
+import {ContactInfo}  from "./pageObjects";
 
-  beforeEach(function() {
-    browser.get('http://localhost:9000/#/exercise1');
+xdescribe("Excercise1", () => {
+  let contactInfo: ContactInfo;
+
+  beforeAll(() => {
+    contactInfo = new ContactInfo();
   });
 
-  it('should find element by model', function() {
-    var emailInput = element(by.model('ctrl.user.email'));
-    expect(emailInput.isPresent()).toBe(true);
-  });  
+  describe("When user open the contact info form", () => {
+
+    // FA - DEBATE REQUIRED - Should we have multiple asserts in a singe test case?
+    // Protractor does support to continue the remaining assets if one fail but its
+    // hard to figure out what is wrong when the test fails  
+    it("Should name, email and phone input elements", () => {
+      expect(contactInfo.nameInput.isPresent()).toBeTruthy();
+      expect(contactInfo.emailInput.isPresent()).toBeTruthy();
+      expect(contactInfo.phoneInput.isPresent()).toBeTruthy();
+    });
+
+    it("Should have name, email and phone text elements", () => {
+      expect(contactInfo.name.isPresent()).toBeTruthy();
+      expect(contactInfo.email.isPresent()).toBeTruthy();
+      expect(contactInfo.phone.isPresent()).toBeTruthy();
+    });
+  });
+
+  describe("when update the contact info detail", () => {
+
+    it("Should replace the existing name with the new value", () => {
+      contactInfo.nameInput.clear();
+      contactInfo.nameInput.sendKeys("Lionel Messi");
+      expect(contactInfo.nameInput.getAttribute("value")).toEqual("Lionel Messi");
+    });
+
+    it("Should replace the existing email with the new value", () => {
+      contactInfo.emailInput.clear();
+      contactInfo.emailInput.sendKeys("lMessi@barcelona.com");
+      expect(contactInfo.emailInput.getAttribute("value")).toEqual("lMessi@barcelona.com");
+    });
+
+    it("Should replace the existing phone no with the new value", () => {
+      contactInfo.phoneInput.clear();
+      contactInfo.phoneInput.sendKeys("22-33-123456");
+      expect(contactInfo.phoneInput.getAttribute("value")).toEqual("22-33-123456");
+    });
+  });
+
+  describe("when save the new contact details", () => {
+    it("Should update the contact info name, email and phone no details", () => {
+      contactInfo.nameInput.clear();
+      contactInfo.nameInput.sendKeys("Lionel Messi");
+      contactInfo.emailInput.clear();
+      contactInfo.emailInput.sendKeys("lMessi@barcelona.com");
+      contactInfo.phoneInput.clear();
+      contactInfo.phoneInput.sendKeys("22-33-123456");
+      contactInfo.saveBtn.click();
+
+      expect(contactInfo.nameInput.getAttribute("value")).toEqual("Lionel Messi");
+      expect(contactInfo.emailInput.getAttribute("value")).toEqual("lMessi@barcelona.com");
+      expect(contactInfo.phoneInput.getAttribute("value")).toEqual("22-33-123456");
+    });
+  });
 });
