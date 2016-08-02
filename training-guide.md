@@ -1,11 +1,16 @@
 # Topics
 * Introducation
 * Protractor
-  * Protractor Architecture
-  * Protractor Configuration
   * Introduction to Protractor, Locating elements and interacting with the angular page
   * Locating Elements - Writing CSS Expressions
   * Page Objects 
+  * Configurations
+  * Style guide
+    * Generic rules
+    * Project structure
+    * Locator strategies
+    * Page objects
+    * Test suites
 * Prerequisites
    * AngularJS
    * Jasmine
