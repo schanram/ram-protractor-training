@@ -10,7 +10,6 @@
     * Project structure
     * Locator strategies
     * Page objects
-    * Test suites
 * Prerequisites
    * AngularJS
    * Jasmine
