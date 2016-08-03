@@ -2,7 +2,7 @@
 
 // This file is only added to mark those points which require debate for coding convenstions 
 
-import {ContactInfo}  from "./pageObjects";
+import {ContactInfo}  from "./pageObjects/pages";
 
 xdescribe("Excercise1", () => {
   let contactInfo: ContactInfo;

@@ -1,4 +1,4 @@
-import {AngularScreen} from "../testInfrastructure"
+import {AngularScreen} from "../../infrastructure"
 
 export class ContactInfo extends AngularScreen {
     

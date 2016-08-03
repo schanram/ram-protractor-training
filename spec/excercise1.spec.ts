@@ -14,9 +14,11 @@
 // 2. Get the input element and replace it existing value with the new value. Test whether the new value replaced the existing one. 
 // 3. Replace the name, email address or phone no and then hit the save button. Test whether it updates the contact info detail.
 
-import {ContactInfo}  from "./pageObjects";
+import {ContactInfo}  from "./pageObjects/pages";
 
-xdescribe("Excercise1", () => {
+
+
+describe("Excercise1", () => {
   let contactInfo: ContactInfo;
 
   beforeAll(() => {
@@ -55,11 +57,13 @@ xdescribe("Excercise1", () => {
       expect(contactInfo.emailInput.getAttribute("value")).toEqual("lMessi@barcelona.com");
     });
 
-    it("Should replace the existing phone no with the new value", () => {
-      contactInfo.phoneInput.clear();
-      contactInfo.phoneInput.sendKeys("22-33-123456");
-      expect(contactInfo.phoneInput.getAttribute("value")).toEqual("22-33-123456");
-    });
+    // it("Should replace the existing phone no with the new value", () => {
+    //   contactInfo.phoneInput.clear();
+    //   expect(contactInfo.phoneInput.getAttribute("value")).toBeEmpty();
+
+    //   // contactInfo.phoneInput.sendKeys("22-33-123456");
+    //   // expect(contactInfo.phoneInput.getAttribute("value")).toEqual("22-33-123456");
+    // });
   });
 
   describe("when save the new contact details", () => {
