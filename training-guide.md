@@ -1,11 +1,15 @@
 # Topics
 * Introducation
 * Protractor
-  * Protractor Architecture
-  * Protractor Configuration
   * Introduction to Protractor, Locating elements and interacting with the angular page
   * Locating Elements - Writing CSS Expressions
   * Page Objects 
+  * Configurations
+  * Style guide
+    * Generic rules
+    * Project structure
+    * Locator strategies
+    * Page objects
 * Prerequisites
    * AngularJS
    * Jasmine
@@ -17,9 +21,11 @@
 ## Introduction   
 
  - Protractor is an <b>end to end</b> test fram work for <b>AngularJS</b> applications. Protractor runs tests against your app in a <b>real browser</b> from a user prospective.
- - End-to-End Test Mean:
+ - End-to-End test mean and why is important:
   - A methodoloy to test flow of app is performing as expected from start to finish.
   - The entire app is tested in the real world scenario such as communicating with the database, or with other applications. No  mock-ups or additional environment creation which we normally need for unit testing.
+  - Prevent production incidents
+  - Manual test takes too much time
   
  - Test framwork for AngularJS:
   - Protractor is build on top of WebDriverJs. Its a wrapper for selenium webdriver which is a standard webpage testing tool. 
